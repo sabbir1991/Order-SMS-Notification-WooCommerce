@@ -1,0 +1,70 @@
+/** 
+ *  Customn admin panel CSS Code
+ */
+#satosms_send_sms_overlay_block{
+	position: absolute;
+	background: rgba(255,255,255,0.5);
+	top: 0px;
+	left: 0px;
+	z-index: 9999;
+	display: none;
+}
+
+#satosms_send_sms_overlay_block img {
+	position: absolute;
+	top: 40%;
+	left: 47%;
+}
+
+.satosms_send_sms_result{
+	background-color: #FFFFE0;
+	padding: 6px;
+	width: 93%;
+	display: none;
+}
+
+#satosms_send_sms_any{
+	margin-top:20px;
+}
+
+#satosms_send_sms_any h3.hndle{
+	padding:15px;
+}
+
+#satosms_send_sms_any .inside{
+	padding: 0px 15px;
+}
+
+#satosms_send_sms_any label {
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+#satosms_send_sms_any input,
+#satosms_send_sms_any textarea {
+	display: block;
+}
+
+#satosms_send_sms_any span {
+	font-style: italic;
+	color:#4E4E4E;
+}
+
+#satosms_receiver_number {
+	width:350px;
+	height: 29px;
+	padding:5px;
+}
+
+#satosms_send_sms_any {
+	margin-bottom: 15px;
+}
+
+.send_sms_to_any_notice{
+	padding:7px 10px;
+}
+
+.send_sms_to_any_notice p{
+	line-height: 25px;
+	font-size: 14px;
+}

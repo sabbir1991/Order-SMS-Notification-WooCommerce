@@ -1,0 +1,388 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Order SMS Notification\n"
+"POT-Creation-Date: 2014-08-25 01:39+0600\n"
+"PO-Revision-Date: 2014-08-25 01:39+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: sat-wc-order-sms.php:192
+msgid "<strong>Send Notification Via SMS</strong> must be required"
+msgstr ""
+
+#: sat-wc-order-sms.php:204
+msgid "Buyer want to get SMS notification"
+msgstr ""
+
+#: sat-wc-order-sms.php:235
+msgid "You have a new Order. The [order_id] is now [order_status]"
+msgstr ""
+
+#: sat-wc-order-sms.php:236
+msgid "Thanks for purchasing. Your [order_id] is now [order_status]. Thank you"
+msgstr ""
+
+#: sat-wc-order-sms.php:259 sat-wc-order-sms.php:283
+msgid "SMS Send Successfully"
+msgstr ""
+
+#: sat-wc-order-sms.php:261 sat-wc-order-sms.php:285
+msgid "SMS Send Faild, Somthing wrong"
+msgstr ""
+
+#: sat-wc-order-sms.php:270
+msgid "SMS Send to buyer Successfully"
+msgstr ""
+
+#: sat-wc-order-sms.php:272
+msgid "SMS Send Faild to buyer, Somthing wrong"
+msgstr ""
+
+#: sat-wc-order-sms.php:327
+msgid "Send SMS to Buyer"
+msgstr ""
+
+#: sat-wc-order-sms.php:340
+msgid "Send Custom SMS to this buyer"
+msgstr ""
+
+#: sat-wc-order-sms.php:341
+msgid "Message will be send in this buyer billing number "
+msgstr ""
+
+#: classes/setting-options.php:40 classes/setting-options.php:125
+msgid "SMS Settings"
+msgstr ""
+
+#: classes/setting-options.php:41
+msgid "Send SMS to Any"
+msgstr ""
+
+#: classes/setting-options.php:51
+msgid "Send SMS to Any Number"
+msgstr ""
+
+#: classes/setting-options.php:53
+msgid ""
+"Make sure that the message recipient number must have country code as an "
+"extension with phone number ( e.g: the number format must be like this <code>"
+"+8801671123456</code>), where <code>+88</code> country code as an extension"
+msgstr ""
+
+#: classes/setting-options.php:57
+msgid "<strong>Error:</strong> Receiver phone number must be required"
+msgstr ""
+
+#: classes/setting-options.php:63
+msgid "<strong>Error:</strong> Gateway doesn't Set"
+msgstr ""
+
+#: classes/setting-options.php:69
+msgid ""
+"<strong>Error:</strong> Message Sending faild, Please check your number or "
+"gateway settings"
+msgstr ""
+
+#: classes/setting-options.php:75
+msgid "<strong>Success:</strong> Message Sucessfully Send to Receiver"
+msgstr ""
+
+#: classes/setting-options.php:84
+msgid "Receiver Number"
+msgstr ""
+
+#: classes/setting-options.php:86
+msgid "Enter your sms receiver number, number must have an extension"
+msgstr ""
+
+#: classes/setting-options.php:90
+msgid "SMS Body"
+msgstr ""
+
+#: classes/setting-options.php:92
+msgid "Enter your message body what you like you want to send this receiver"
+msgstr ""
+
+#: classes/setting-options.php:97
+msgid "Send SMS"
+msgstr ""
+
+#: classes/setting-options.php:116
+msgid "General Settings"
+msgstr ""
+
+#: classes/setting-options.php:120
+msgid "SMS Gateway Settings"
+msgstr ""
+
+#: classes/setting-options.php:146
+msgid "Enable SMS Notifications"
+msgstr ""
+
+#: classes/setting-options.php:147
+msgid "If checked then enable your sms notification for new order"
+msgstr ""
+
+#: classes/setting-options.php:153
+msgid "Enable Admin Notifications"
+msgstr ""
+
+#: classes/setting-options.php:154
+msgid "If checked then enable admin sms notification for new order"
+msgstr ""
+
+#: classes/setting-options.php:161
+msgid "Enable buyer Notification"
+msgstr ""
+
+#: classes/setting-options.php:162
+msgid "If checked then buyer can get notification options in checkout page"
+msgstr ""
+
+#: classes/setting-options.php:168
+msgid "Force buyer notification"
+msgstr ""
+
+#: classes/setting-options.php:169
+msgid ""
+"If select yes then buyer notification option must be required in checkout "
+"page"
+msgstr ""
+
+#: classes/setting-options.php:180
+msgid "Buyer Notification Text"
+msgstr ""
+
+#: classes/setting-options.php:181
+msgid ""
+"Enter your text which is appeared in checkout page for buyer as a checkbox"
+msgstr ""
+
+#: classes/setting-options.php:187
+msgid "Check Order Status "
+msgstr ""
+
+#: classes/setting-options.php:188
+msgid "In which status you will send notifications"
+msgstr ""
+
+#: classes/setting-options.php:191
+msgid "On Hold"
+msgstr ""
+
+#: classes/setting-options.php:192
+msgid "Pending"
+msgstr ""
+
+#: classes/setting-options.php:193
+msgid "Processing"
+msgstr ""
+
+#: classes/setting-options.php:194
+msgid "Completed"
+msgstr ""
+
+#: classes/setting-options.php:202
+msgid "Select your Gateway"
+msgstr ""
+
+#: classes/setting-options.php:203
+msgid "Select your sms gateway"
+msgstr ""
+
+#: classes/setting-options.php:213
+msgid "Enter your Phone Number with extension"
+msgstr ""
+
+#: classes/setting-options.php:214
+msgid ""
+"<br>Admin order sms notifications will be send in this number. Please make "
+"sure that the number must have a extension (e.g.: +8801626265565 where +88 "
+"will be extension)"
+msgstr ""
+
+#: classes/setting-options.php:219
+msgid "Enter your SMS body"
+msgstr ""
+
+#: classes/setting-options.php:220
+msgid ""
+" Write your custom message. When an order is create then you get this type "
+"of format message. For order id just insert <code>[order_id]</code> and for "
+"order status insert <code>[order_status]</code>. Similarly order items : "
+"<code>[order_items]</code>, order amount: <code>[order_amount]</code>"
+msgstr ""
+
+#: classes/setting-options.php:227
+msgid "Enter buyer SMS body"
+msgstr ""
+
+#: classes/setting-options.php:228
+msgid ""
+" Write your custom message. If enbale buyer notification options then buyer "
+"can get this message in this format. For order id just insert "
+"<code>[order_id]</code> and for order status insert <code>[order_status]</"
+"code>. Similarly order items : <code>[order_items]</code>, Order amount: "
+"<code>[order_amount]</code>"
+msgstr ""
+
+#: classes/setting-options.php:275
+msgid "--select--"
+msgstr ""
+
+#: classes/setting-options.php:276
+msgid "Talk With Text"
+msgstr ""
+
+#: classes/setting-options.php:277
+msgid "Twilio"
+msgstr ""
+
+#: classes/setting-options.php:278
+msgid "Clickatell"
+msgstr ""
+
+#: classes/setting-options.php:279
+msgid "Nexmo"
+msgstr ""
+
+#: classes/setting-options.php:280
+msgid "SMS global"
+msgstr ""
+
+#: classes/setting-options.php:326
+msgid "Talk with text Username"
+msgstr ""
+
+#: classes/setting-options.php:329
+msgid ""
+"The HTTP API username that is supplied to your account (most of the times it "
+"is your email)"
+msgstr ""
+
+#: classes/setting-options.php:334
+msgid "Talk with text Password"
+msgstr ""
+
+#: classes/setting-options.php:337
+msgid "The HTTP API password of your account"
+msgstr ""
+
+#: classes/setting-options.php:342
+msgid "Talk with text Originator"
+msgstr ""
+
+#: classes/setting-options.php:345
+msgid "The originator of your message (11 alphanumeric or 14 numeric values)"
+msgstr ""
+
+#: classes/setting-options.php:358
+msgid "Twilio From Number"
+msgstr ""
+
+#: classes/setting-options.php:361
+msgid "From which number the message will be sent to the users"
+msgstr ""
+
+#: classes/setting-options.php:366
+msgid "Twillo Account SID"
+msgstr ""
+
+#: classes/setting-options.php:369
+msgid "Twilio Account SID"
+msgstr ""
+
+#: classes/setting-options.php:375
+msgid "Twillo Authentication Token"
+msgstr ""
+
+#: classes/setting-options.php:378
+msgid "Twilio AUTH Token"
+msgstr ""
+
+#: classes/setting-options.php:392
+msgid "Clickatell name"
+msgstr ""
+
+#: classes/setting-options.php:395
+msgid "Clickatell Username"
+msgstr ""
+
+#: classes/setting-options.php:400
+msgid "Clickatell Password"
+msgstr ""
+
+#: classes/setting-options.php:403
+msgid "Clickatell password"
+msgstr ""
+
+#: classes/setting-options.php:408
+msgid "Clickatell api"
+msgstr ""
+
+#: classes/setting-options.php:411
+msgid "Clickatell API id"
+msgstr ""
+
+#: classes/setting-options.php:424
+msgid "Nexmo API"
+msgstr ""
+
+#: classes/setting-options.php:427
+msgid "Nexmo API key"
+msgstr ""
+
+#: classes/setting-options.php:432
+msgid "Nexmo API Secret"
+msgstr ""
+
+#: classes/setting-options.php:435
+msgid "Nexmo API secret"
+msgstr ""
+
+#: classes/setting-options.php:440
+msgid "Nexmo From Name"
+msgstr ""
+
+#: classes/setting-options.php:443
+msgid ""
+"From which name the message will be sent to the users ( Default : NEXMO )"
+msgstr ""
+
+#: classes/setting-options.php:457
+msgid "SMSGlobal Name"
+msgstr ""
+
+#: classes/setting-options.php:460
+msgid "SMS Global Username"
+msgstr ""
+
+#: classes/setting-options.php:465
+msgid "SMSGlobal Password"
+msgstr ""
+
+#: classes/setting-options.php:468
+msgid "SMS Global password"
+msgstr ""
+
+#: classes/setting-options.php:472
+msgid "SMSGlobal Sender Id"
+msgstr ""
+
+#: classes/setting-options.php:475
+msgid ""
+"Sender ID that the message will appear from. Eg: 61409317436  (Do not use "
+"+before the country code)"
+msgstr ""
+
+#: lib/class.settings-api.php:295
+msgid "Browse"
+msgstr ""
