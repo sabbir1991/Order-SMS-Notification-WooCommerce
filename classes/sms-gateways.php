@@ -56,7 +56,7 @@ class SatSMS_SMS_Gateways {
         $password = satosms_get_option( 'clickatell_password', 'satosms_gateway' );
         $api_key = satosms_get_option( 'clickatell_api', 'satosms_gateway' );
         $phone = str_replace( '+', '', $sms_data['number'] );
-
+        $text = urlencode( $sms_data['sms_body'] );
         //bail out if nothing provided
         if ( empty( $username ) || empty( $password ) || empty( $api_key ) ) {
             return $response;
@@ -74,7 +74,7 @@ class SatSMS_SMS_Gateways {
         if ( $sess[0] == "OK" ) {
 
             $sess_id = trim( $sess[1] ); // remove any whitespace
-            $url = sprintf( '%s/http/sendmsg?session_id=%s&to=%s&text=%s', $baseurl, $sess_id, $phone, $sms_data['sms_body'] );
+            $url = sprintf( '%s/http/sendmsg?session_id=%s&to=%s&text=%s', $baseurl, $sess_id, $phone, $text );
 
             // do sendmsg call
             $ret = file( $url );
