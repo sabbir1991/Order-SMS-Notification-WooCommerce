@@ -24,5 +24,5 @@ This plugin also have a premium version named [WooCommerce Order SMS Notificatio
 * Integrate extra 3 more gateways ( Twillio, Nexmo, SMS Global )
 * Send SMS to any number.
 * Send Order Details ( order no, order status, order items and order amount ) in sms text
-* Directly contact with buyer.
+* Directly contact with buyer via SMS.
 * Admin can force to buyer to get sms notifications.  
