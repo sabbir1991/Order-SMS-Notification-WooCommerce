@@ -25,4 +25,4 @@ This plugin also have a premium version named [WooCommerce Order SMS Notificatio
 * Send SMS to any number.
 * Send Order Details ( order no, order status, order items and order amount ) in sms text
 * Directly contact with buyer via SMS.
-* Admin can force to buyer to get sms notifications.  
+* Admin can force to buyer to get sms notifications via settings.  
